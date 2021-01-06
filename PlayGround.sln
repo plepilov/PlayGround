@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageParser", "MessageParser\MessageParser.csproj", "{33FEAFF2-ECB6-4837-830C-217AC688FB90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageParser.Tests", "MessageParser.Tests\MessageParser.Tests.csproj", "{331F7BF4-7379-4312-889E-67551653B277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33FEAFF2-ECB6-4837-830C-217AC688FB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FEAFF2-ECB6-4837-830C-217AC688FB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FEAFF2-ECB6-4837-830C-217AC688FB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FEAFF2-ECB6-4837-830C-217AC688FB90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331F7BF4-7379-4312-889E-67551653B277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331F7BF4-7379-4312-889E-67551653B277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331F7BF4-7379-4312-889E-67551653B277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331F7BF4-7379-4312-889E-67551653B277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
