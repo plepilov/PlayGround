@@ -1,14 +1,24 @@
-﻿namespace MessageParser
+﻿using System;
+using System.Collections.Generic;
+
+namespace MessageParser
 {
     public class MessageParser
     {
-        public string[] Parse(string message)
+        public static string[] Parse(string message)
         {
             return message.Split();
         }
-        public string[] ParseSpan(string message)
+        
+        public static string[] ParseSpan(string message)
         {
-            return message.Split();
+            var ret = new List<string>();
+            var value = message.AsSpan();
+            foreach (var segment in value.Split(' '))
+            {
+                ret.Add(value[segment].ToString());
+            }
+            return ret.ToArray();
         }
     }
 }

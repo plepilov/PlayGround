@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/microsoft.diagnostics.tracing.traceevent/2.0.49/lib/native/amd64" t="Include">
+      <e p="KernelTraceControl.dll" t="Include" />
+      <e p="msdia140.dll" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/microsoft.diagnostics.tracing.traceevent/2.0.49/lib/native/x86" t="Include">
+      <e p="KernelTraceControl.dll" t="Include" />
+      <e p="KernelTraceControl.Win61.dll" t="Include" />
+      <e p="msdia140.dll" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/microsoft.diagnostics.tracing.traceevent/2.0.49/lib/netstandard1.6/Dia2Lib.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.diagnostics.tracing.traceevent/2.0.49/lib/netstandard1.6/OSExtensions.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.diagnostics.tracing.traceevent/2.0.49/lib/netstandard1.6/TraceReloggerLib.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.7.1/build/netcoreapp2.1" t="Include">
       <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
     </e>
@@ -15,7 +27,7 @@
         <e p="MessageParser.cs" t="Include" />
         <e p="MessageParser.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="net5.0" t="Include">
               <e p="MessageParser.AssemblyInfo.cs" t="Include" />
             </e>
@@ -28,7 +40,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="MessageParser.Tests.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
+          <e p="Release" t="Include">
             <e p="net5.0" t="Include">
               <e p="MessageParser.Tests.AssemblyInfo.cs" t="Include" />
             </e>
@@ -37,6 +49,19 @@
         <e p="UnitTest1.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="ParserBenchmark" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Release" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ParserBenchmark.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ParserBenchmark.cs" t="Include" />
+        <e p="ParserBenchmark.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="PlayGround.sln" t="IncludeFlat" />
     </e>
   </component>
