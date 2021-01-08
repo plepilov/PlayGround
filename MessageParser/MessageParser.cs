@@ -5,20 +5,28 @@ namespace MessageParser
 {
     public class MessageParser
     {
+        private static string[] result = new [] {"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""};
         public static string[] Parse(string message)
         {
-            return message.Split();
+            var index = 0;
+            foreach (var item in message.Split())
+            {
+                result[index] = item;
+            }
+
+            return result;
         }
         
         public static string[] ParseSpan(string message)
         {
-            var ret = new List<string>();
             var value = message.AsSpan();
+            var index = 0;
             foreach (var segment in value.Split(' '))
             {
-                ret.Add(value[segment].ToString());
+                result[index] = value[segment].ToString();
             }
-            return ret.ToArray();
+
+            return result;
         }
     }
 }

@@ -4,27 +4,36 @@
     <projectFile>ParserBenchmark/ParserBenchmark.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9732dc93-498b-4616-8232-0699513fdd05" name="Default Changelist" comment="First commit" />
+    <list default="true" id="9732dc93-498b-4616-8232-0699513fdd05" name="Default Changelist" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayGround/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayGround/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageParser.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MessageParser.Tests/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MessageParser/MessageParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MessageParser/MessageParser.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/petrlepilov/RiderProjects/PlayGround/MessageParser.Tests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MessageParser/MessageParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/petrlepilov/RiderProjects/PlayGround/MessageParser/MessageParser.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/MessageParser/Class1.cs" />
       <option value="$PROJECT_DIR$/MessageParser/SpanSplitEnumerator.cs" />
       <option value="$PROJECT_DIR$/MessageParser/SpanSplitEnumeratorExtensions.cs" />
-      <option value="$PROJECT_DIR$/MessageParser/MessageParser.cs" />
       <option value="$PROJECT_DIR$/MessageParser/ParserBenchmark.cs" />
-      <option value="$PROJECT_DIR$/MessageParser.Tests/UnitTest1.cs" />
       <option value="$PROJECT_DIR$/MessageParser/MessageParser.csproj" />
       <option value="$PROJECT_DIR$/ParserBenchmark/ParserBenchmark.csproj" />
       <option value="$PROJECT_DIR$/ParserBenchmark/ParserBenchmark.cs" />
       <option value="$PROJECT_DIR$/ParserBenchmark/Program.cs" />
+      <option value="$PROJECT_DIR$/MessageParser/MessageParser.cs" />
+      <option value="$PROJECT_DIR$/MessageParser.Tests/UnitTest1.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mcjWBV6LPujVOHsvM98AQlqtQr" />
@@ -74,13 +83,35 @@
       <option name="presentableId" value="Default" />
       <updated>1609799804504</updated>
       <workItem from="1609799807419" duration="31119000" />
+      <workItem from="1610065175882" duration="2215000" />
     </task>
+    <task id="LOCAL-00001" summary="Added BenchmarkDotNet benchmark">
+      <created>1610065277203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610065277203</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Added BenchmarkDotNet benchmark" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added BenchmarkDotNet benchmark" />
   </component>
 </project>

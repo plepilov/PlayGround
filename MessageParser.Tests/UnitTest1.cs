@@ -8,7 +8,12 @@ namespace MessageParser.Tests
         [Fact]
         public void SimpleParse()
         {
-            Assert.Equal(2, MessageParser.Parse("Sample Message").Length);
+            var expected = "Sample Message".Split(' ');
+            var idx = 0;
+            foreach (var item in "Sample Message".Split(' '))
+            {
+                Assert.Equal(expected[idx++], item);
+            }
         }
         
         [Fact]
