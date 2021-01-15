@@ -2,6 +2,7 @@ using BenchmarkDotNet.Attributes;
 
 namespace ParserBenchmark
 {
+    [MemoryDiagnoser]
     public class ParserBenchMarks
     {
         private readonly string data = "asd dfgh rtyertyem ertyerywerdgw wetw56w5r vbnmvbnm";

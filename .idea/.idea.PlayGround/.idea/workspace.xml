@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9732dc93-498b-4616-8232-0699513fdd05" name="Default Changelist" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PlayGround/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PlayGround/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageParser.Tests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MessageParser.Tests/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MessageParser/MessageParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MessageParser/MessageParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParserBenchmark/ParserBenchmark.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ParserBenchmark/ParserBenchmark.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayGround.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/PlayGround.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Users/petrlepilov/RiderProjects/PlayGround/MessageParser.Tests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/petrlepilov/RiderProjects/PlayGround/MessageParser.Tests/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MessageParser/MessageParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/petrlepilov/RiderProjects/PlayGround/MessageParser/MessageParser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/petrlepilov/RiderProjects/PlayGround/MessageParser/MessageParser.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -30,10 +32,10 @@
       <option value="$PROJECT_DIR$/MessageParser/ParserBenchmark.cs" />
       <option value="$PROJECT_DIR$/MessageParser/MessageParser.csproj" />
       <option value="$PROJECT_DIR$/ParserBenchmark/ParserBenchmark.csproj" />
-      <option value="$PROJECT_DIR$/ParserBenchmark/ParserBenchmark.cs" />
       <option value="$PROJECT_DIR$/ParserBenchmark/Program.cs" />
-      <option value="$PROJECT_DIR$/MessageParser/MessageParser.cs" />
       <option value="$PROJECT_DIR$/MessageParser.Tests/UnitTest1.cs" />
+      <option value="$PROJECT_DIR$/MessageParser/MessageParser.cs" />
+      <option value="$PROJECT_DIR$/ParserBenchmark/ParserBenchmark.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mcjWBV6LPujVOHsvM98AQlqtQr" />
@@ -83,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609799804504</updated>
       <workItem from="1609799807419" duration="31119000" />
-      <workItem from="1610065175882" duration="2215000" />
+      <workItem from="1610065175882" duration="21193000" />
     </task>
     <task id="LOCAL-00001" summary="Added BenchmarkDotNet benchmark">
       <created>1610065277203</created>
@@ -92,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610065277203</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Make Split implementation comparable">
+      <created>1610119128167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610119128167</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +121,26 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added BenchmarkDotNet benchmark" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added BenchmarkDotNet benchmark" />
+    <MESSAGE value="Make Split implementation comparable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make Split implementation comparable" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MessageParser/MessageParser.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/MessageParser/MessageParser.cs" initialLine="20" containingFunctionPresentation="method 'ParseSpan'">
+            <startOffsets>
+              <option value="560" />
+            </startOffsets>
+            <endOffsets>
+              <option value="561" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
